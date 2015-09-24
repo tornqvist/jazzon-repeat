@@ -1,0 +1,31 @@
+{
+  "name": "jazzon-repeat",
+  "version": "1.0.0",
+  "description": "Repeat given value n number of times",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.js",
+    "posttest": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tornqvist/jazzon-repeat.git"
+  },
+  "keywords": [
+    "jazzon"
+  ],
+  "author": "Carl Törnqvist <calle.tornqvist@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tornqvist/jazzon-repeat/issues"
+  },
+  "homepage": "https://github.com/tornqvist/jazzon-repeat#readme",
+  "devDependencies": {
+    "eslint": "^1.5.1",
+    "jazzon": "^0.2.0",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "lodash.clonedeep": "^3.0.2"
+  }
+}
